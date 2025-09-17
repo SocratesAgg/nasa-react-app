@@ -48,8 +48,6 @@ footer {
   justify-content: space-between;
   gap: 1rem;
   padding: 1rem;
-  background: linear-gradient(to top, #030615, rgba(255, 255, 255, 0));
-
 }
 
 footer div {
@@ -85,8 +83,10 @@ footer button:hover {
 }
 
 .bgGradient {
+  position: absolute;
   inset: 0;
   z-index: -1;
+  background: linear-gradient(to top, #030615, rgba(255, 255, 255, 0));
 }
 
 .sidebar {
@@ -177,8 +177,7 @@ footer button:hover {
   }
 }
 
-/*  Responsive styles
- */
+
 @media (min-width: 640px) {
   .sidebar {
     position: relative;
